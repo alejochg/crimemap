@@ -21,6 +21,6 @@ updated_at TIMESTAMP,
 PRIMARY KEY (id)
 )"""
         cursor.execute(sql)
-    connection.commit()
+        connection.commit()
 finally:
     connection.close()
